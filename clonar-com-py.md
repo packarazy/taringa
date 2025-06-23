@@ -37,5 +37,5 @@ El script extrae automáticamente el nombre del repositorio desde la URL (reposi
 El repositorio se clonará en la misma carpeta donde está ubicado el archivo .py.
 
 
-¿Quieres que agregue soporte para repositorios privados con autenticación también?
+
 
