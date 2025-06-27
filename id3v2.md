@@ -5,7 +5,7 @@
 -h, --help
 Muestra la ayuda y sale  .
 
--v, --version
+ --version
 Muestra la versión del programa  .
 
 
@@ -14,25 +14,23 @@ Listar información
 -l, --list [ARCHIVOS...]
 Lista las etiquetas ID3v2 de los archivos  .
 
--R, --list-rfc822 [ARCHIVOS...]
-Lista las etiquetas en formato estilo RFC‑822  .
 
 -f, --list-frames
 Muestra todos los posibles frames de ID3v2  .
 
--L, --list-genres
+-lg, --list-genres
 Muestra la lista de géneros en ID3v1  .
 
 
 Eliminar etiquetas
 
--d, --delete-v2 [ARCHIVOS...]
+ --eliminar-v2 [ARCHIVOS...]
 Elimina únicamente las etiquetas ID3v2  .
 
--s, --delete-v1 [ARCHIVOS...]
+ --eliminar-v1 [ARCHIVOS...]
 Elimina únicamente las etiquetas ID3v1  .
 
--D, --delete-all [ARCHIVOS...]
+--eliminar-all [ARCHIVOS...]
 Elimina ambas etiquetas, v1 y v2  .
 
 
@@ -44,22 +42,22 @@ Convierte etiquetas v1 a v2  .
 
 Establecer campos básicos
 
--a, --artist ARTISTA
+-a, --artista ARTISTA
 Establece el artista  .
 
 -A, --album ÁLBUM
 Establece el título del álbum  .
 
--t, --song TEMA
+-t, --titulo TEMA
 Establece el título de la canción  .
 
--c, --comment DESCRIPCIÓN:COMENTARIO[:IDIOMA]
+-c, --comentario DESCRIPCIÓN:COMENTARIO[:IDIOMA]
 Establece un comentario (puede incluir idioma opcional)  .
 
 -g, --genre NÚM
 Establece el género (número según lista)  .
 
--y, --year AÑO
+-y, --año AÑO
 Establece el año  .
 
 -T, --track NUM[/TOTAL]
