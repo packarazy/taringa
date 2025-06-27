@@ -91,6 +91,10 @@ Modo silencioso, sin salidas por pantalla  .
 
 
 -vim abrir con vin el archivo generos.txt para agregar generos mucicales (es el archivo que usa -lg oara mostar generos y -g para asicnar generos)
+
+-yt descargar video de YouTube y convertirlo a mp3 con yt-dlp
+
+(cuando solo hay un nombre de archivo reproduccirlo com vlc)
 ---
 
 🛠 Ejemplos útiles
