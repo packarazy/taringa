@@ -78,8 +78,7 @@ Solo escribe etiquetas ID3v2  .
 -r, --remove-frame FRAMEID
 Elimina un frame v2 específico  .
 
--p, --picture ARCHIVO y --APIC TIPO
-Adjunta una imagen (cover art) con tipo específico  .
+-p, adjuntar portada ya sea una dirección wev o dirección local
 
 -v NUM
 Define la versión de ID3v2 a utilizar (usualmente 3 o 4)  .
@@ -91,7 +90,7 @@ Conserva la fecha/hora del archivo (no modifica timestamp)  .
 Modo silencioso, sin salidas por pantalla  .
 
 
-
+-vim abrir con vin el archivo generos.txt para agregar generos mucicales (es el archivo que usa -lg oara mostar generos y -g para asicnar generos)
 ---
 
 🛠 Ejemplos útiles
